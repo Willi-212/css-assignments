@@ -1,0 +1,50 @@
+.one {
+    align-items: center;
+    color: white;
+    background-color: rgb(146, 30, 30);
+    padding: 10px;
+    width: 62px;
+    margin-bottom: 10px;
+}
+.two {
+    align-items: center;
+    color: white;
+    background-color: rgb(146, 30, 30);
+    padding: 10px;
+    width: 185px;
+    margin-bottom: 10px;
+}
+.three {
+    align-items: center;
+    color: white;
+    background-color: rgb(146, 30, 30);
+    padding: 10px;
+    width: 275px;
+    margin-bottom: 10px;
+}
+.four {
+    align-items: center;
+    color: white;
+    background-color: rgb(146, 30, 30);
+    padding: 10px;
+    width: 308px;
+    height: 39px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>CSS</title>
+    <link rel="stylesheet" href="css/master.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+    <div class="one">Title One</div>
+    <div class="two">Title Two With More Words</div>
+    <div class="three">Title Three with many many many words</div>
+    <div class="four">Title Three with many many many words Title Three with many many many words Title Three with many many many words Title Three with many many many words</div>
+</body>
+</html>

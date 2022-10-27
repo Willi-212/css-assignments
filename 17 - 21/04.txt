@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>CSS</title>
+    <link rel="stylesheet" href="css/master.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+    <a href="https://elzero.org">elzero</a>
+</body>
+</html>
+
+a {
+    align-items: center;
+    color: white;
+    background-color: rgb(10, 175, 148);
+    padding: 10px;
+    border-bottom: 4px solid rgb(5, 117, 99);
+    text-transform: capitalize;
+    text-decoration: none;
+}

@@ -1,0 +1,36 @@
+div.shape-1 {
+    background-color: #DDD;
+    padding: 20px;
+    margin: 20px;
+    width: 400px;
+    border-left: 8px solid red;
+}
+div.shape-2 {
+    background-color: #DDD;
+    padding: 20px;
+    margin: 20px;
+    width: 400px;
+    visibility: hidden;
+}
+div.shape-3 {
+    background-color: #DDD;
+    padding: 20px;
+    margin: 20px;
+    width: 400px;
+    border-left: 8px solid hsl(170, 67%, 25%);
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>CSS</title>
+    <link rel="stylesheet" href="css/master.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+    <div class="shape-1">This is important note</div>
+    <div class="shape-2">This is important note</div>
+    <div class="shape-3">This is important note</div>
+</body>
+</html>

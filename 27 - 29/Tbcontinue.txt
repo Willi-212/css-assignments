@@ -1,0 +1,47 @@
+.parent {
+    width: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    background-color: red;
+}
+.full {
+    text-align: center;
+    color: black;
+    background-color: #DDD;
+    padding: 20px;
+}
+.fthree,
+.secthree,
+.threthree {
+    text-align: center;
+    color: black;
+    background-color: #DDD;
+    padding: 20px;
+    float: left;
+    width: 31.66%;
+    margin-left: 1%;
+}
+.clear {
+    clear: both;
+}
+/*
+Content width: 100%
+2 spaces 1% * 5 => 5% From Content Width
+95% Available space
+3 Elements The width is 95% / 3
+*/
+
+
+    <div class="parent">
+        <div class="full">Full Width</div>
+        <div class="fthree">1/3</div>
+        <div class="secthree">1/3</div>
+        <div class="threthree">1/3</div>
+        <div class="clear"></div>
+        <div class="oneontwo">1/2</div>
+        <!-- <div class="twoontwo">1/2</div>
+        <div class="oneonfour">1/4</div>
+        <div class="twoonfour">1/4</div>
+        <div class="threeonfour">1/4</div>
+        <div class="fouronfour">1/4</div> -->

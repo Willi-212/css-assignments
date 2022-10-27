@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>CSS</title>
+    <link rel="stylesheet" href="css/master.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+    <div class="para">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        Ea itaque fugit vitae incidunt quis dolores? Id alias
+        eveniet sequi perspiciatis iusto impedit,
+        accusamus maxime reprehenderit blanditiis adipisci sapiente hic velit.
+    </div>
+    <div class="sline">Lorem ipsum dolor sit amet consectetur</div>
+    <div class="lline">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        Ea itaque fugit vitae incidunt quis dolores? Id alias
+        eveniet sequi perspiciatis iusto impedit,
+        accusamus maxime reprehenderit blanditiis adipisci sapiente hic velit.</div>
+</body>
+</html>
+
+.para {
+    background-color: #DDD;
+    padding: 10px;
+    width: 400px;
+    margin: 20px;
+    word-break: break-word;
+}
+.sline {
+    background-color: #DDD;
+    padding: 10px;
+    width: 400px;
+    margin: 20px;
+}
+.lline {
+    background-color: #DDD;
+    padding: 10px;
+    width: 400px;
+    margin: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

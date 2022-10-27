@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>CSS</title>
+    <link rel="stylesheet" href="css/master.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+    <div class="assign-4-shape-1">Shape 1</div>
+    <br>
+    <div class="assign-4-shape-2">Shape 2</div>
+    <br>
+    <div class="assign-4-shape-3">Shape 3</div>
+    <br>
+    <div class="assign-4-shape-4">Shape 4</div>
+</body>
+</html>
+
+.assign-4-shape-1 {
+    color: white;
+    padding: 10px;
+    width: 400px;
+    height: 400px;
+    background-image: url("../imgs/test.png");
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: top left;
+}
+.assign-4-shape-2 {
+    color: white;
+    padding: 10px;
+    width: 400px;
+    height: 400px;
+    background-image: url("../imgs/test.png");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: bottom right;
+}
+.assign-4-shape-3 {
+    color: white;
+    padding: 10px;
+    width: 400px;
+    height: 400px;
+    background-image: url("../imgs/test.png");
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position: bottom left;
+}
+.assign-4-shape-4 {
+    color: white;
+    padding: 10px;
+    width: 400px;
+    height: 400px;
+    background-image: url("../imgs/test.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
