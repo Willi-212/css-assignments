@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>CSS</title>
+    <link rel="stylesheet" href="css/master.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+    <div>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, sed. Ea ipsum
+        similique quasi rem, fugiat voluptatibus reiciendis nam debitis earum quo veniam
+        laudantium mollitia atque! Laborum ea nam doloribus.
+        <span class="top-left">1</span>
+        <span class="bottom-left">2</span>
+        <span class="top-right">3</span>
+        <span class="bottom-right">4</span>
+    </div>
+</body>
+</html>
+
+
+
+div {
+    width: 400px;
+    height: fit-content;
+    padding: 20px;
+    background-color: #eee;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 2px solid;
+    border-color: red #0093ff;
+    margin-top: 23px;
+}
+.top-left {
+    text-align: center;
+    background-color: #0093ff;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    top: -10px;
+    left: -17px;
+    width: 25px;
+    border-right: 2px solid red;
+}
+.top-right {
+    text-align: center;
+    background-color: #0093ff;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    top: -10px;
+    left: 421px;
+    width: 25px;
+    border-left: 2px solid red;
+}
+.bottom-left {
+    text-align: center;
+    background-color: #0093ff;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    top: 98px;
+    left: -17px;
+    width: 25px;
+    border-right: 2px solid red;
+}
+.bottom-right {
+    text-align: center;
+    background-color: #0093ff;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    top: 98px;
+    left: 421px;
+    width: 25px;
+    border-left: 2px solid red;
+}

@@ -1,0 +1,39 @@
+.black {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+    position: absolute;
+    transform: translate(20px, 37px);
+}
+.blue {
+    background-color: #0bc0fe;
+    width: 100px;
+    height: 100px;
+    z-index: 2;
+    position: absolute;
+    transform: translate(20px , 20px);
+}
+.green {
+    background-color: #33ae3d;
+    width: 100px;
+    height: 100px;
+    z-index: 3;
+    position: absolute;
+    transform: translate(40px, 37px);
+}
+.red {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    z-index: 4;
+    position: absolute;
+    transform: translate(60px, 54px);
+}
+
+
+
+    <div class="green"></div>
+    <div class="red"></div>
+    <div class="blue"></div>
+    <div class="black"></div>
