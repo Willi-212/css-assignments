@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/master.css">
+</head>
+<body>
+    <ul class="list-container">
+        <li>
+            HTML
+            <ol class="ol-decimal">
+                <li value="10">Slim</li>
+                <li>Pugjs</li>
+                <li>HAML</li>
+            </ol>
+        </li>
+        <li>
+            CSS
+            <ol class="ol-roman">
+                <li value="10">SASS</li>
+                <li>LESS</li>
+                <li>PostCSS</li>
+            </ol>
+        </li>
+        <li>
+            JavaScript
+            <ul class="ul-circle">
+            <li>Vuejs</li>
+            <li>Sveltejs</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
+
+
+
+
+
+
+.list-container {
+    width: 400px;
+    margin: auto;
+    list-style: none;
+    /* list-style-position: inside; */
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+ul li {
+    background-color: #eee;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.ol-decimal {
+    
+    list-style-type: decimal;
+    margin-bottom: 20px;
+}
+.ol-roman {
+    list-style-type: upper-roman;
+}
+ul li ol li,
+ul li ul li {
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+}
+
+.ul-circle {
+    list-style: inside;
+    list-style-type: circle;
+}
