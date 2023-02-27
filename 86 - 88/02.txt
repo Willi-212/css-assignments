@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+div {
+    position: relative;
+}
+
+.arrow {
+    background-color: #dddddd;
+    width: 200px;
+    padding: 20px;
+    margin: 35px auto;
+}
+
+.arrow:before{
+    content: "";
+    display: block;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-width: 15px;
+    border-style: solid;
+    border-color: transparent transparent #dddddd transparent;
+}
+.top::before {
+    left: 44%;
+    top: -30px;
+}
+.right::before{
+    left: 100%;
+    top: 14px;
+    transform: rotate(90deg);
+}
+.bottom::before {
+    left: 49%;
+    top: 100%;
+    transform: rotate(180deg);
+}
+.left::before {
+    left: -29px;
+    top: 25%;
+    transform: rotate(270deg);
+}
+
+
+
+

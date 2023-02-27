@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.grid {
+    width: 100vw;
+    background-color: #eee;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px 10px;
+}
+h3 {
+    margin-bottom: 5px;
+}
+h4 {
+    margin-bottom: 15px;
+    color: grey;
+}
+.first-p {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 15px;
+    line-height: 1.3;
+}
+.second-p {
+    line-height: 1.3;
+    margin-bottom: 5px;
+}
+.osama {
+    background-color: white;
+    padding: 20px;
+    border-bottom: 1px solid #fe4910;
+    grid-column: span 2;
+}
+.ahmed {
+    background-color: white;
+    padding: 20px;
+    border-bottom: 1px solid #fe4910;
+}
+.shady {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-bottom: 1px solid #fe4910;
+    grid-row: span 3;
+}
+.mohammed {
+    background-color: white;
+    padding: 20px;
+    border-bottom: 1px solid #fe4910;
+    grid-row: span 2;
+}
+.m-mahomoud {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-bottom: 1px solid #fe4910;
+    grid-column: span 2;
+}
+.ez-el {
+    background-color: white;
+    padding: 20px;
+    border-bottom: 1px solid #fe4910;
+    grid-column: span 2;
+}
+.m-s,
+.g-s,
+.e-s {
+    background-color: white;
+    padding: 20px;
+    border-bottom: 1px solid #fe4910;
+}
+
+
+.i-s {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 20px;
+    border-bottom: 1px solid #fe4910;
+}
+
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta ame="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/master.css">
+    <title>Css Is Cool</title>
+</head>
+<body>
+    <div class="grid">
+        <div class="osama">
+            <h3>Osama Mohammed</h3>
+            <h4>Full-Stack Developer</h4>
+            <p class="first-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas tenetur, error magni asperiores beatae iste corrupti possimus delectus? Explicabo culpa accusamus sint possimus est odio provident deserunt vel iure esse.</p>
+            <p class="second-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam placeat sit nobis necessitatibus quas praesentium repellendus? Sequi cum sed provident aperiam quibusdam sit modi pariatur, quaerat quo ad, consequatur voluptatem? consectetur adipisicing elit. Quas tenetur, error magni asperiores consectetur adipisicing elit. Numquam placeat sit nobis Sequi cum sed provident aperiam quibusdam</p>
+        </div>
+        <div class="ahmed">
+            <h3>Ahmed Sayed</h3>
+            <h4>IOS Developer</h4>
+            <p class="first-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas tenetur, error magni </p>
+            <p class="second-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam placeat sit nobis necessitatibus quas praesentium repellendus</p>
+        </div>
+        <div class="shady">
+            <h3>Shady Nabil</h3>
+            <h4>Full-Stack Developer</h4>
+            <p class="first-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas tenetur, error magni asperiores beatae iste corrupti possimus delectus? Explicabo culpa accusamus sint possimus est odio provident deserunt vel iure esse.</p>
+            <p class="second-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam placeat sit nobis necessitatibus quas praesentium repellendus? Sequi cum sed provident aperiam quibusdam sit modi pariatur, quaerat quo ad, consequatur voluptatem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, provident mollitia! Eum, similique ut explicabo ullam sint inventore esse distinctio dignissimos, rem iure quam, quasi corrupti porro aut laborum aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti rerum explicabo eaque vitae aut, quisquam veritatis iure, architecto voluptatem quos nulla voluptate cupiditate impedit. Facere asperiores ullam in architecto quas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem ea odio, eos amet sapiente hic quis repellat nobis molestiae fugit ut magnam architecto? Inventore dignissimos similique earum vel rem mollitia.</p>
+        </div>
+        <div class="mohammed">
+            <h3>Mohammed Ibrahim</h3>
+            <h4>Net Developer</h4>
+            <p class="first-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas tenetur, error magni asperiores beatae iste corrupti possimus delectus</p>
+            <p class="second-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam placeat sit nobis necessitatibus quas praesentium repellendus? Sequi cum sed provident aperiam quibusdam sit modi pariatur, quaerat quo ad, consequatur voluptatem? ? Explicabo culpa accusamus sint possimus est odio provident deserunt vel iure esse. sit amet consectetur adipisicing elit. Numquam placeat sit nobis necessitatibus quas praesentium dolor sit amet consectetur adipisicing elit. Numquam placeat sit nobis necessitatibus quas praesentium repellendus</p>
+        </div>
+        <div class="m-mahomoud">
+            <h3>Mohammed Mahmoud</h3>
+            <h4>Full-Stack Developer</h4>
+            <p class="first-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas tenetur, error magni asperiores beatae iste corrupti possimus delectus</p>
+            <p class="second-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam placeat sit nobis necessitatibus quas praesentium repellendus? Sequi cum sed provident aperiam quibusdam sit modi pariatur, quaerat quo ad, consequatur voluptatem? ? Explicabo culpa accusamus sint possimus est odio provident deserunt vel iure esse. sit amet consectetur adipisicing elit. Numquam placeat sit nobis necessitatibus quas praesentium dolor sit amet consectetur adipisicing elit. Numquam placeat sit nobis necessitatibus quas praesentium repellendus</p>
+        </div>
+        <div class="ez-el">
+            <h3>Ezz Eldin</h3>
+            <h4>Front-End Developer</h4>
+            <p class="first-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas tenetur, error magni asperiores beatae iste corrupti possimus delectus</p>
+            <p class="second-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam placeat sit nobis necessitatibus quas praesentium repellendus? Sequi cum sed provident aperiam quibusdam sit modi pariatur, quaerat quo ad, consequatur voluptatem? ? Explicabo culpa accusamus sint possimus est odio provident deserunt vel iure esse. sit amet consectetur adipisicing elit. Numquam placeat sit nobis necessitatibus quas praesentium dolor sit amet consectetur adipisicing elit. Numquam placeat sit nobis necessitatibus quas praesentium repellendus</p>
+        </div>
+        <div class="m-s">
+            <h3>Mohammed Sayed</h3>
+            <h4>IOS Developer</h4>
+            <p class="first-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam placeat</p>
+            <p class="second-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam placeat sit nobis necessitatibus quas praesentium repellendus</p>
+        </div>
+        <div class="i-s">
+            <h3>Ibrahim Sayed</h3>
+            <h4>IOS Developer</h4>
+            <p class="first-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam placeat</p>
+            <p class="second-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam placeat sit nobis necessitatibus quas praesentium repellendus</p>
+        </div>
+        <div class="g-s">
+            <h3>Gamal Sayed</h3>
+            <h4>IOS Developer</h4>
+            <p class="first-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam placeat</p>
+            <p class="second-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam placeat sit nobis necessitatibus quas praesentium repellendus</p>
+        </div>
+        <div class="e-s">
+            <h3>Eman Sayed</h3>
+            <h4>IOS Developer</h4>
+            <p class="first-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam placeat</p>
+            <p class="second-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam placeat sit nobis necessitatibus quas praesentium repellendus</p>
+        </div>
+    </div>
+</body>
+</html>

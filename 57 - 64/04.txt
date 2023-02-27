@@ -1,0 +1,60 @@
+.grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(6,auto);
+    gap: 20px 20px;
+}
+.grid div {
+    background-color: #2196f3;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.one {
+    order: 8;
+    grid-column: span 3;
+}
+.two {
+    grid-column: span 2;
+}
+.five {
+    grid-column: span 2;
+    grid-row: span 3;
+}
+.eight {
+    order: -1;
+    grid-column: span 3;
+}
+
+
+
+
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta ame="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/master.css">
+    <title>Css Is Cool</title>
+</head>
+<body>
+    <div class="grid">
+        <div class="one">1</div>
+        <div class="two">2</div>
+        <div class="three">3</div>
+        <div class="four">4</div>
+        <div class="five">5</div>
+        <div class="six">6</div>
+        <div class="seven">7</div>
+        <div class="eight">8</div>
+    </div>
+</body>
+</html>

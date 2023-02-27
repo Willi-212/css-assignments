@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+:root {
+    --main-color: #d8d8d8;
+}
+.page {
+    width: 900px;
+    height: 100%;
+    background-color: #eee;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.header {
+    display: flex;
+    width: 900px;
+    height: 40px;
+    justify-content: space-evenly;
+}
+.logo {
+    width: 80px;
+    height: 40px;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links {
+    list-style: none;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 780px;
+    height: 40px;
+    gap: 10px;
+    padding: 0 20px;
+}
+.main-area {
+    margin-top: 20px;
+    display: flex;
+    width: 900px;
+    justify-content: space-evenly;
+}
+.content {
+    display: flex;
+    background-color: var(--main-color);
+    width: 560px;
+    height: 400px;
+    padding: 15px;
+}
+.sidebar {
+    display: flex;
+    background-color: var(--main-color);
+    width: 300px;
+    height: 400px;
+    padding: 15px;
+}
+.footer {
+    margin-top: 20px;
+    display: flex;
+    width: 900px;
+    height: 40px;
+    align-items: center;
+    padding: 15px;
+}
+.copyright {
+    padding: 15px;
+    background-color: var(--main-color);
+    width: 800px;
+}
+.design {
+    padding: 15px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--main-color);
+    width: 200px;
+}
+
+
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta ame="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/master.css">
+    <title>Css Is Cool</title>
+</head>
+<body>
+    <div class="page">
+        <div class="header">
+        <div class="logo">Logo</div>
+        <ul class="links">
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+        </ul>
+        </div>
+        <div class="main-area">
+        <div class="content">Content</div>
+        <div class="sidebar">Sidebar</div>
+        </div>
+        <div class="footer">
+            <div class="copyright">Copyright 2021</div>
+            <div class="design">Designed By Leo</div>
+        </div>
+    </div>
+</body>
+</html>

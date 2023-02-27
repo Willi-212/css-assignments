@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+.parent {
+    background-color: #eee;
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 10px 0;
+    display: flex;
+    /* align-items: flex-end; */
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.parent div {
+    width: calc(35%/2);
+    height: calc(100%/2);
+    /* background-color: red; */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.one {
+    background-color: rgb(255 182 46);
+}
+.two {
+    align-self: flex-end;
+    background-color: rgb(136 207 83);
+}
+.three {
+    background-color: #8e6464;
+}
+.four {
+    order: -3;
+    align-self: flex-end;
+    background-color: blueviolet;
+}
+
+
+
+
+    <div class="parent">
+        <div class="one">1</div>
+        <div class="two">2</div>
+        <div class="three">3</div>
+        <div class="four">4</div>
+    </div>

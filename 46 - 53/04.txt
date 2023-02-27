@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+.parent {
+    width: 600px;
+    height: 300px;
+    background-color: #eee;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+.parent div {
+    background-color: darkcyan;
+    color: white;
+    height: calc(90% / 3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.one {
+    width: 30px;
+}
+.two {
+    width: 300px;
+    align-self: flex-start;
+}
+.three {
+    width: 30px;
+}
+
+    <div class="parent">
+        <div class="one">1</div>
+        <div class="two">2</div>
+        <div class="three">3</div>
+    </div>

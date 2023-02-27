@@ -1,0 +1,160 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta ame="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/master.css">
+    <title>Css Is Cool</title>
+</head>
+<body>
+    <div class="parent">
+        <div class="lettere">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="letterl">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <div class="yel-box"></div>
+    <div class="yel-box2"></div>
+</body>
+</html>
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.parent {
+    background-color: #eee;
+    width: 900px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.parent .lettere {
+    margin-top: 50px;
+    width: 300px;
+    background-color: #eee;
+    display: grid;
+    grid-template-columns: 80px repeat(5,1fr);
+    grid-template-rows: 80px 80px 80px;
+    row-gap: 80px;
+    
+}
+.parent div {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.parent .lettere div:first-child {
+    grid-column: 2 / span 6;
+}
+.parent .lettere div:nth-child(2) {
+    grid-row: 1 / span 3;
+}
+.parent .lettere div:nth-child(3) {
+    grid-column: span 6;
+}
+.parent .lettere div:nth-child(4) {
+    grid-column: span 6;
+}
+
+
+/* Letter L */
+
+.parent .letterl {
+    margin-top: 50px;
+    width: 300px;
+    height: 400px;
+    background-color: #eee;
+    display: grid;
+    grid-template-columns: 80px;
+    grid-template-rows: 80px;
+}
+.parent .letterl div:first-child {
+    grid-row: span 4;
+}
+.parent .letterl div:nth-child(2) {
+    grid-column: span 2;
+}
+
+/* Yellow Box */
+
+.yel-box {
+    background-color: #ff8100;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    transform: translate(532px, 64px);
+    animation-name: moving;
+    animation-duration: 5s;
+    animation-delay: 2s;
+}
+.yel-box2 {
+    background-color: #ff8100;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    transform: translate(992px,385px);
+    animation-name: movv2;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+/* Animation */
+
+@keyframes moving {
+    0% {
+        transform: translate(523px, 64px);
+    }
+    10% {
+        transform: translate(325px, 64px);
+    }
+    20% {
+        transform: translate(325px, 224px);
+    }
+    30%{
+        transform: translate(537px, 224px);
+    }
+    40% {
+        transform: translate(325px, 224px);
+    }
+    50% {
+        transform: translate(325px, 384px);
+    }
+    60% {
+        transform: translate(537px, 384px);
+    }
+    70% {
+        transform: translate(325px, 384px);
+    }
+    80% {
+        transform: translate(325px, 64px)
+    }
+}
+
+@keyframes movv2 {
+    0% {
+        transform: translate(992px,385px);
+    }
+    50% {
+        transform: translate(776px,385px);
+    }
+    80% {
+        transform: translate(776px,68px);
+        opacity: 100%;
+    }
+    100% {
+        transform: translate(776px,68px);
+        opacity: 0%;
+    }
+}

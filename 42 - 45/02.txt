@@ -1,0 +1,44 @@
+div {
+    background-color: rgb(238, 238, 238) !important;
+    width: 400px;
+    padding: 0!important;
+    font-size: 20px !important;
+    color: black !important;
+    border: none !important;
+    text-align: center;
+    margin-top: -20px;
+    visibility: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+div::after {
+    content: "Elzero";
+    visibility: visible;
+    background-color: rgb(238, 238, 238);
+    display: block;
+    width: 400px !important;
+    padding: 20px;
+    font-size: 20px;
+}
+
+
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta ame="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/master.css">
+    <title>Css Is Cool</title>
+</head>
+<body>
+    <div style="
+    background-color: red;
+    color: white;
+    padding: 20px;
+    border: 1px solid blue;
+    font-size: 80px;">
+    Hello Div
+    </div>
+</body>
+</html>

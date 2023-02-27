@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.layout {
+    height: 100vh;
+    display: grid;
+    background-color: #eee;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: 40px auto 40px;
+    grid-template-areas: "head head head head head head head head head head"
+    "sect sect sect sect sect sect sect aside aside aside"
+    "foot foot foot foot foot foot foot foot foot foot";
+}
+div header {
+    grid-area: head;
+    background-color: #03a9f4;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+div header::before {
+    content: "Header";
+    padding: 0 20px;
+    color: white;
+
+}
+div section {
+    grid-area: sect;
+    background-color: #ff5722;
+    padding: 20px;
+}
+div section::before {
+    content: "Section";
+    color: white;
+    padding: 0 20px;
+}
+div aside {
+    grid-area: aside;
+    background-color: #607d8b;
+    padding: 20px;
+}
+div aside::before {
+    content: "Aside";
+    color: white;
+    padding: 0 20px;
+}
+div footer {
+    grid-area: foot;
+    background-color: #009688;
+    padding: 20px;
+    height: 39px;
+    display: flex;
+    align-items: center;
+}
+div footer::before {
+    content: "Footer";
+    color: white;
+    padding: 0 20px;
+}
+
+
+
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta ame="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/master.css">
+    <title>Css Is Cool</title>
+</head>
+<body>
+    <div class="layout">
+        <header></header>
+        <section></section>
+        <aside></aside>
+        <footer></footer>
+    </div>
+</body>
+</html>

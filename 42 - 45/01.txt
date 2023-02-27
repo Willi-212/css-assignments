@@ -1,0 +1,36 @@
+.parent {
+    background-color: #ededed;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px auto;
+    transition-duration: 0.5s;
+}
+.child {
+    background-color: rgb(212, 212, 212);
+    width: 400px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    transition-duration: 0.5s;
+    /* transition-delay: 0.5s; */
+    transition-timing-function: ease-in;
+}
+.parent:hover {
+    margin-top: 0px;
+}
+.child:hover{
+    margin-top: 70px;
+}
+
+
+    <div class="parent">
+        Will Go Up and Hover In half Second
+        <div class="child">Will go down after half second</div>
+    </div>

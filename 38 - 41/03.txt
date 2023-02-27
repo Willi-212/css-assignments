@@ -1,0 +1,160 @@
+.parent {
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.card-one {
+    background-color: rgb(230, 230, 230);
+    width: 250px;
+    height: 300px;
+    position: relative;
+    float: left;
+}
+.card-one > div:first-child {
+    background-color: #00c5c7;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 150px;
+    height: 20px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    margin-top: 13px;
+    color: white;
+    font-size: 22px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+}
+.card-one >div:nth-child(2) {
+    background-color: rgb(215 215 215);
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    margin-top: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-border-radius: 50%;
+    -moz-bo-border-radius: 50%;
+    -o-bord-border-radius: 50%;
+    -ms-bor-border-radius: 50%;
+    border-radius: 50%;
+    font-size: 28px;
+}
+.card-one::after {
+    content: "";
+    position: relative;
+    display: block;
+    left: 274px;
+    width: 2px;
+    height: 100%;
+    background-color: #00c5c7;
+}
+.card-two {
+    background-color: rgb(230, 230, 230);
+    width: 250px;
+    height: 300px;
+    position: relative;
+    float: right;
+}
+.card-two > div:first-child {
+    background-color: #00c5c7;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 150px;
+    height: 20px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    margin-top: 13px;
+    color: white;
+    font-size: 22px;
+    -webkit-border-radius: 10px;
+    -moz-bo-border-radius: 10px;
+    -o-bord-border-radius: 10px;
+    -ms-bor-border-radius: 10px;
+    border-radius: 10px;
+}
+.card-two >div:nth-child(2) {
+    background-color: rgb(215 215 215);
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    margin-top: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-border-radius: 50%;
+    -moz-bo-border-radius: 50%;
+    -o-bord-border-radius: 50%;
+    -ms-bor-border-radius: 50%;
+    border-radius: 50%;
+    font-size: 28px;
+}
+.or-circle {
+    float: left;
+    position: relative;
+    top: 147px;
+    left: 8px;
+    background-color: #00c5c7;
+    padding: 10px;
+    -webkit-border-radius: 50%;
+    -moz-bo-border-radius: 50%;
+    -o-bord-border-radius: 50%;
+    -ms-bor-border-radius: 50%;
+    border-radius: 50%;
+    color: white;
+}
+
+
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta ame="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/master.css">
+    <title>Css Is Cool</title>
+</head>
+<body>
+    <div class="parent">
+        <div class="card-one">
+            <div>Basic</div>
+            <div>Free</div>
+        </div>
+        <div class="or-circle">Or</div>
+        <div class="card-two">
+            <div>Pro</div>
+            <div>30$</div>
+        </div>
+    </div>
+</body>
+</html>

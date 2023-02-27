@@ -1,0 +1,98 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta ame="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/master.css">
+    <title>Css Is Cool</title>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+div::before {
+    content: "";
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: transparent;
+    border: 5px solid #2290fa;
+    border-radius: 50%;
+    border-bottom-color: transparent;
+
+    animation-name: spin;
+    animation-play-state: paused;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+div {
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    border: 5px solid black;
+    border-radius: 50%;
+    background-color: transparent;
+    border-bottom-color: transparent;
+
+    animation-name: spin;
+    animation-play-state: paused;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+div::after {
+    content: "";
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: transparent;
+    border: 5px solid #fca500;
+    border-radius: 50%;
+    border-bottom-color: transparent;
+    animation-duration: 8s;
+    animation-name: spin;
+    animation-play-state: paused;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+div:hover {
+    animation-play-state: running;
+}
+div:hover::before {
+    animation-play-state: running;
+}
+
+div:hover::after {
+    animation-play-state: running;
+    animation-delay: -24s;
+}
+
+
+@keyframes spin {
+    from {
+        transform: translate(-50%,-50%) rotate(0deg);
+    }
+    to {
+        transform: translate(-50%,-50%) rotate(360deg);
+    }
+}
+
+

@@ -1,0 +1,36 @@
+    <p>This Is Very Very Long Product Title</p>
+    <p>This Is Very Very Long Product Title</p>
+    <p>This Is Very Very Long Product Title</p>
+    <p>This Is Very Very Long Product Title</p>
+    <p>This Is Very Very Long Product Title</p>
+    <p>This Is Very Very Long Product Title</p>
+
+
+p {
+    padding: 20px;
+    background-color: #eee;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    /* border-right: 5px solid rgb(236, 61, 61); */
+}
+p::before {
+    content: "1";
+    background-color: rgb(236, 61, 61);
+    padding: 20px;
+    position: relative;
+    left: -20px;
+    font-size: 20px;
+    color: white;
+}
+p::after {
+    content: "";
+    float: right;
+    width: 5px;
+    left: 20px;
+    height: 65px;
+    position: relative;
+    margin-top: -50px;
+    top: 29px;
+    background-color: rgb(236, 61, 61);
+}

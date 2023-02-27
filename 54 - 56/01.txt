@@ -1,0 +1,27 @@
+div {
+    background-color: #eee;
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+div::first-letter {
+    color: red;
+}
+div::before {
+    content: "";
+    position: absolute;
+    width: 610px;
+    padding: 20px;
+    height: 30px;
+    z-index: -1;
+    left: -5px;
+    top: -6px;
+    background-color: red;
+    background-image: linear-gradient(to right ,red 20%,#2eade2 20%,#2eade2 40%,#55d76a 40%,#55d76a 60%,#e02659 60%,#e02659 80%,#954cb8 80%,#954cb8 100%);
+}
+
+
+
+    <div>Elzero</div>

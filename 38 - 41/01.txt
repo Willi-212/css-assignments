@@ -1,0 +1,82 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(223, 223, 223);
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 50px;
+    margin-left: 200px;
+    margin-top: 50px;
+    -webkit-box-shadow: -6px -5px 0px 3px rgb(255 64 64),
+    7px 4px 0px 3px rgb(25 159 255),
+    inset 0px 0px 0px 2px black;
+    -moz-box-shadow: -6px -5px 0px 3px rgb(255 64 64),
+    7px 4px 0px 3px rgb(25 159 255),
+    inset 0px 0px 0px 2px black;
+    -op-box-shadow: -6px -5px 0px 3px rgb(255 64 64),
+    7px 4px 0px 3px rgb(25 159 255),
+    inset 0px 0px 0px 2px black;
+    -ms-box-shadow: -6px -5px 0px 3px rgb(255 64 64),
+    7px 4px 0px 3px rgb(25 159 255),
+    inset 0px 0px 0px 2px black;
+    box-shadow: -6px -5px 0px 3px rgb(255 64 64),
+    7px 4px 0px 3px rgb(25 159 255),
+    inset 0px 0px 0px 2px black;
+}
+div:first-child::before {
+    content: "1";
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 50%;
+    position: relative;
+    left: 32px;
+    top: -8px;
+    font-size: 18px;
+}
+div:first-child::after {
+    content: "Element";
+    position: relative;
+    top: 41%;
+    left: -15px;
+}
+div:nth-child(2)::before {
+    content: "2";
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 50%;
+    position: relative;
+    left: 32px;
+    top: -8px;
+    font-size: 18px;
+}
+div:nth-child(2)::after {
+    content: "Element";
+    position: relative;
+    top: 41%;
+    left: -15px;
+}
+div:nth-child(3)::before {
+    content: "3";
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 50%;
+    position: relative;
+    left: 32px;
+    top: -8px;
+    font-size: 18px;
+}
+div:nth-child(3)::after {
+    content: "Element";
+    position: relative;
+    top: 41%;
+    left: -15px;
+}
+    <div></div>
+    <div></div>
+    <div></div>

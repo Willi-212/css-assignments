@@ -1,0 +1,36 @@
+p {
+    padding: 20px;
+    background-color: #eee;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 5px solid rgb(236, 61, 61);
+}
+p::before {
+    content: "Osama";
+    text-align: center;
+    background-color: #eee;
+    width: 70px;
+    height: 100%;
+    padding: 10px;
+    margin-top: -10px;
+    float: left;
+    position: relative;
+    right: 200px;
+}
+p::after {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    float: left;
+    left: 468px;
+    background-color: transparent;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent rgb(236, 61, 61) transparent transparent;
+}
+
+    <p data-person="Osama">This Is Very Very Long Comment Number One</p>
+    <p data-person="Ahmed">This Is Very Very Long Comment Number Two</p>
+    <p data-person="Sayed">This Is Very Very Long Comment Number Three</p>

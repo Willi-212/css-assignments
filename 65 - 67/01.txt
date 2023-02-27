@@ -1,0 +1,38 @@
+div {
+    width: 300px;
+    height: 200px;
+    margin: 50px auto;
+    background-color: #eee;
+    color: #03a9f4;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    position: relative;
+}
+div::before {
+    content: "";
+    position: absolute;
+    background-color: #03a9f4;
+    width: 300px;
+    height: 200px;
+    z-index: -1;
+    transform: rotate(353deg);
+}
+div::after {
+    content: "";
+    position: absolute;
+    background-color: #e91e63;
+    width: 300px;
+    height: 200px;
+    z-index: -2;
+    transform: rotate(8deg);
+}
+
+
+
+
+
+
+    <div>Elzero</div>

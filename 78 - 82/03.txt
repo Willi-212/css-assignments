@@ -1,0 +1,19 @@
+<div class="parent">
+        <div class="baby">Testing</div>
+        <div class="baby">Testing</div>
+    </div>
+    <div class="parent">
+        <div class="baby">Elzero</div>
+    </div>
+    <div class="parent">
+        <div>
+            <div>Testing</div>
+        </div>
+        <div class="baby">Testing</div>
+    </div>
+    <div class="baby">Testing</div>
+
+
+.parent:nth-child(2) .baby{
+    color: red;
+}
